@@ -71,7 +71,7 @@ export default function DetectionPage() {
 
           {/* Detection Details Sidebar */}
           <div className="lg:col-span-1">
-            <DetectionSidebar detections={detections} />
+            <DetectionSidebar detections={detections} imageFile={selectedFile} />
           </div>
         </div>
       </main>

@@ -1,8 +1,10 @@
 import { Detection } from "@/types/detection";
 import { Search, HelpCircle, Book, Settings } from "lucide-react";
+import { useRef, useEffect, useState } from "react";
 
 interface DetectionSidebarProps {
   detections: Detection[];
+  imageFile: File | null;
 }
 
 const SENTIMENT_COLORS: Record<string, string> = {
@@ -14,8 +16,59 @@ const SENTIMENT_COLORS: Record<string, string> = {
   'default': '#6366F1'
 };
 
-export function DetectionSidebar({ detections }: DetectionSidebarProps) {
+export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProps) {
   const hasDetections = detections.length > 0;
+  const [croppedImages, setCroppedImages] = useState<{ [key: number]: string }>({});
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  // Create cropped images for each detection
+  useEffect(() => {
+    if (!imageFile || !hasDetections) {
+      setCroppedImages({});
+      return;
+    }
+
+    const createCroppedImages = async () => {
+      const img = new Image();
+      const imageUrl = URL.createObjectURL(imageFile);
+      
+      img.onload = () => {
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+        
+        const ctx = canvas.getContext('2d');
+        if (!ctx) return;
+
+        const newCroppedImages: { [key: number]: string } = {};
+
+        detections.forEach((detection, index) => {
+          // Set canvas size to the detection box size
+          canvas.width = detection.width;
+          canvas.height = detection.height;
+
+          // Clear canvas
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+          // Draw the cropped section of the image
+          ctx.drawImage(
+            img,
+            detection.x, detection.y, detection.width, detection.height, // Source rectangle
+            0, 0, detection.width, detection.height // Destination rectangle
+          );
+
+          // Convert to data URL
+          newCroppedImages[index] = canvas.toDataURL('image/jpeg', 0.8);
+        });
+
+        setCroppedImages(newCroppedImages);
+        URL.revokeObjectURL(imageUrl);
+      };
+
+      img.src = imageUrl;
+    };
+
+    createCroppedImages();
+  }, [detections, imageFile, hasDetections]);
 
   // Calculate unique sentiments and their average confidence
   const sentimentStats = detections.reduce((acc, detection) => {
@@ -30,6 +83,9 @@ export function DetectionSidebar({ detections }: DetectionSidebarProps) {
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+      {/* Hidden canvas for image cropping */}
+      <canvas ref={canvasRef} className="hidden" />
+      
       <h3 className="text-lg font-semibold text-slate-900 mb-4">Detection Details</h3>
       
       {/* Legend */}
@@ -85,31 +141,55 @@ export function DetectionSidebar({ detections }: DetectionSidebarProps) {
             <p className="text-slate-400 text-xs">Upload an image and click Predict</p>
           </div>
         ) : (
-          <div className="space-y-2 max-h-64 overflow-y-auto">
+          <div className="space-y-3 max-h-96 overflow-y-auto detection-list">
             {detections.map((detection, index) => {
               const color = SENTIMENT_COLORS[detection.class?.toLowerCase()] || SENTIMENT_COLORS.default;
+              const croppedImage = croppedImages[index];
               
               return (
                 <div
                   key={index}
                   className="border border-slate-200 rounded-lg p-3 hover:bg-slate-50 cursor-pointer transition-colors"
                 >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                      <div 
-                        className="w-3 h-3 rounded" 
-                        style={{ backgroundColor: color }}
-                      />
-                      <span className="text-sm font-medium text-slate-900 capitalize">
-                        {detection.class}
-                      </span>
+                  <div className="flex items-start space-x-3">
+                    {/* Cropped image thumbnail */}
+                    <div className="flex-shrink-0">
+                      {croppedImage ? (
+                        <img
+                          src={croppedImage}
+                          alt={`Detected ${detection.class}`}
+                          className="w-16 h-16 object-cover rounded-md border border-slate-200"
+                        />
+                      ) : (
+                        <div className="w-16 h-16 bg-slate-100 rounded-md border border-slate-200 flex items-center justify-center">
+                          <div className="w-2 h-2 bg-slate-400 rounded-full animate-pulse" />
+                        </div>
+                      )}
                     </div>
-                    <span className="text-xs text-slate-500">
-                      {Math.round(detection.confidence * 100)}%
-                    </span>
-                  </div>
-                  <div className="text-xs text-slate-600 mt-1">
-                    Box: ({Math.round(detection.x)}, {Math.round(detection.y)}) - ({Math.round(detection.x + detection.width)}, {Math.round(detection.y + detection.height)})
+                    
+                    {/* Detection info */}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center space-x-2">
+                          <div 
+                            className="w-3 h-3 rounded" 
+                            style={{ backgroundColor: color }}
+                          />
+                          <span className="text-sm font-medium text-slate-900 capitalize">
+                            {detection.class}
+                          </span>
+                        </div>
+                        <span className="text-xs text-slate-500 font-medium">
+                          {Math.round(detection.confidence * 100)}%
+                        </span>
+                      </div>
+                      <div className="text-xs text-slate-600 mt-1">
+                        Size: {Math.round(detection.width)}×{Math.round(detection.height)}px
+                      </div>
+                      <div className="text-xs text-slate-500 mt-0.5">
+                        Position: ({Math.round(detection.x)}, {Math.round(detection.y)})
+                      </div>
+                    </div>
                   </div>
                 </div>
               );
