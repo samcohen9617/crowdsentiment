@@ -1,4 +1,4 @@
-import { DetectionResponse } from "@/types/detection";
+import { DetectionResponse, RoboflowResponse } from "@/types/detection";
 
 export async function predictImage(imageFile: File): Promise<DetectionResponse> {
   const formData = new FormData();
@@ -13,7 +13,19 @@ export async function predictImage(imageFile: File): Promise<DetectionResponse> 
     throw new Error(`API request failed: ${response.status} ${response.statusText}`);
   }
 
-  return await response.json();
+  const roboflowData: RoboflowResponse = await response.json();
+  
+  // Transform Roboflow predictions to our Detection format
+  const detections = roboflowData.result.predictions.map(prediction => ({
+    class: prediction.class.split(' - ')[0], // Remove the version info from class name
+    confidence: prediction.confidence,
+    x: prediction.x - (prediction.width / 2), // Convert center-based to top-left coordinates
+    y: prediction.y - (prediction.height / 2),
+    width: prediction.width,
+    height: prediction.height,
+  }));
+
+  return { detections };
 }
 
 export function validateImageFile(file: File): { isValid: boolean; error?: string } {

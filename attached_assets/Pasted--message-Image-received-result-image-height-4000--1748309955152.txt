@@ -1,0 +1,653 @@
+{
+    "message": "Image received",
+    "result": {
+        "image": {
+            "height": 4000,
+            "width": 6000
+        },
+        "inference_id": "bac7aec9-b019-44ba-8c5a-39fe0ecdcac3",
+        "predictions": [
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7923474311828613,
+                "detection_id": "18fb2669-e86a-4ac3-8b8e-2a66ee84e62a",
+                "height": 221.0,
+                "width": 189.0,
+                "x": 1183.5,
+                "y": 547.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7653807401657104,
+                "detection_id": "b416e364-9548-4f71-99d2-27c7a4124804",
+                "height": 239.0,
+                "width": 210.0,
+                "x": 1450.0,
+                "y": 1420.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.76421058177948,
+                "detection_id": "8923da8c-8fb7-4f8b-88d2-51d28077f277",
+                "height": 208.0,
+                "width": 190.0,
+                "x": 2936.0,
+                "y": 992.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7595707178115845,
+                "detection_id": "cc8dff0f-e1f4-4945-9421-1d62ab51c555",
+                "height": 218.0,
+                "width": 211.0,
+                "x": 2768.5,
+                "y": 1156.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7535516619682312,
+                "detection_id": "6466d102-d8b2-4eb2-bd50-e6dd52025147",
+                "height": 198.0,
+                "width": 192.0,
+                "x": 1069.0,
+                "y": 1233.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7528820037841797,
+                "detection_id": "c0ea96f2-0084-49aa-90e5-132ee186d444",
+                "height": 257.0,
+                "width": 234.0,
+                "x": 3113.0,
+                "y": 1524.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7420725226402283,
+                "detection_id": "6a301b9e-3629-4dea-b5ea-5d9eebca5e86",
+                "height": 226.0,
+                "width": 196.0,
+                "x": 998.0,
+                "y": 741.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7420271635055542,
+                "detection_id": "6bb298b0-ac08-4586-8e67-8c58b6b557ea",
+                "height": 236.0,
+                "width": 207.0,
+                "x": 5353.5,
+                "y": 2362.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7383146286010742,
+                "detection_id": "a8bc0e92-e47a-45e5-bd52-264e3bf19f9b",
+                "height": 230.0,
+                "width": 203.0,
+                "x": 4413.5,
+                "y": 860.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7361222505569458,
+                "detection_id": "1ee91a25-bb28-4e2a-a3f0-7dd5e3f3efa6",
+                "height": 233.0,
+                "width": 211.0,
+                "x": 1864.5,
+                "y": 1195.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7348202466964722,
+                "detection_id": "437b174f-d081-46e4-8ea0-ed8ad92d1cbc",
+                "height": 206.0,
+                "width": 212.0,
+                "x": 3640.0,
+                "y": 1351.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7304925918579102,
+                "detection_id": "5cac7677-de8e-4122-b8c1-3db586dbfbc6",
+                "height": 188.0,
+                "width": 181.0,
+                "x": 4990.5,
+                "y": 714.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7301173210144043,
+                "detection_id": "8e4b7f25-ede2-4b94-8d9c-45ee2c6f5859",
+                "height": 215.0,
+                "width": 203.0,
+                "x": 2436.5,
+                "y": 547.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7297208905220032,
+                "detection_id": "2bf97fcf-fcaa-4698-854a-466c14e82e2b",
+                "height": 222.0,
+                "width": 190.0,
+                "x": 4774.0,
+                "y": 1412.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7240761518478394,
+                "detection_id": "3b9168ca-8202-48b9-a835-f0fcabea14d7",
+                "height": 229.0,
+                "width": 214.0,
+                "x": 2113.0,
+                "y": 1053.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7217409014701843,
+                "detection_id": "e277d4d3-d134-42d8-b0c4-a27f2bd4d22d",
+                "height": 255.0,
+                "width": 208.0,
+                "x": 1635.0,
+                "y": 470.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7213398218154907,
+                "detection_id": "b1e54a7f-162b-4d60-b60e-2a85208a3355",
+                "height": 215.0,
+                "width": 203.0,
+                "x": 3424.5,
+                "y": 1147.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7210713028907776,
+                "detection_id": "26785de8-4697-4cd7-b937-2e1733c84d12",
+                "height": 228.0,
+                "width": 219.0,
+                "x": 5515.5,
+                "y": 475.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.719817042350769,
+                "detection_id": "3d1f558e-165f-4e9c-bb6b-c9707e0f1e2d",
+                "height": 224.0,
+                "width": 221.0,
+                "x": 3734.5,
+                "y": 2000.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7197347283363342,
+                "detection_id": "e4d29ba4-71b8-49e8-9586-20e3880c0bb5",
+                "height": 175.0,
+                "width": 172.0,
+                "x": 5197.0,
+                "y": 1882.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7189035415649414,
+                "detection_id": "8853682d-f026-4a5b-8c58-7104adc1b59e",
+                "height": 234.0,
+                "width": 210.0,
+                "x": 2813.0,
+                "y": 1891.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7171189785003662,
+                "detection_id": "191696fe-d681-4a4b-afa5-ae8224a6b633",
+                "height": 250.0,
+                "width": 224.0,
+                "x": 2483.0,
+                "y": 966.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7160584926605225,
+                "detection_id": "24ecd029-3170-4c8d-a6d8-043228b13ffa",
+                "height": 234.0,
+                "width": 199.0,
+                "x": 943.5,
+                "y": 1002.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.71511310338974,
+                "detection_id": "b5f43ee8-db5e-47a8-b0b5-42600e419b5d",
+                "height": 295.0,
+                "width": 278.0,
+                "x": 233.0,
+                "y": 3046.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7145989537239075,
+                "detection_id": "533ccb65-3cd9-403a-8db7-7bd4a80bca61",
+                "height": 214.0,
+                "width": 176.0,
+                "x": 480.0,
+                "y": 985.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7139829397201538,
+                "detection_id": "2df52b4b-797a-4cc8-921d-23ed3ca6f5af",
+                "height": 203.0,
+                "width": 196.0,
+                "x": 4190.0,
+                "y": 1403.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7087270021438599,
+                "detection_id": "5c164631-5d01-430e-97f8-271cd55f2e5b",
+                "height": 202.0,
+                "width": 218.0,
+                "x": 4210.0,
+                "y": 1138.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.706872820854187,
+                "detection_id": "2d070137-8e06-474a-a899-189711ee238a",
+                "height": 187.0,
+                "width": 180.0,
+                "x": 2910.0,
+                "y": 589.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7063409090042114,
+                "detection_id": "14963acd-dfb5-474f-9a35-69b5849e0271",
+                "height": 232.0,
+                "width": 217.0,
+                "x": 5351.5,
+                "y": 778.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7036354541778564,
+                "detection_id": "1c2a26b2-6b62-493c-bbac-d338520626fe",
+                "height": 173.0,
+                "width": 184.0,
+                "x": 1500.0,
+                "y": 1198.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7024301290512085,
+                "detection_id": "430cf4a1-1923-49e4-a0ff-dee9c96bd54b",
+                "height": 210.0,
+                "width": 191.0,
+                "x": 720.5,
+                "y": 512.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.7015129327774048,
+                "detection_id": "126429fa-530c-4dae-adcf-be3b114b75e4",
+                "height": 225.0,
+                "width": 186.0,
+                "x": 4100.0,
+                "y": 586.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6979813575744629,
+                "detection_id": "2b720b11-2c72-4bc3-a861-daed2bcea755",
+                "height": 234.0,
+                "width": 226.0,
+                "x": 2157.0,
+                "y": 698.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6969326138496399,
+                "detection_id": "aef5cc47-9b84-49e2-becd-7f05eeb293dd",
+                "height": 197.0,
+                "width": 177.0,
+                "x": 1379.5,
+                "y": 871.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6962456703186035,
+                "detection_id": "bfd027c0-3f88-497c-a811-5b140ef7120b",
+                "height": 224.0,
+                "width": 205.0,
+                "x": 536.5,
+                "y": 1299.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.696141242980957,
+                "detection_id": "87699467-41f3-447f-a69b-c87ff9a97ee3",
+                "height": 207.0,
+                "width": 218.0,
+                "x": 4451.0,
+                "y": 640.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6934241056442261,
+                "detection_id": "3c579a59-d431-4cab-88b6-b5f3aec5d4a1",
+                "height": 191.0,
+                "width": 198.0,
+                "x": 2369.0,
+                "y": 1267.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6908676624298096,
+                "detection_id": "5281ef2e-74c3-41a2-b6ff-f0b4f42cfb39",
+                "height": 225.0,
+                "width": 183.0,
+                "x": 3904.5,
+                "y": 675.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6904313564300537,
+                "detection_id": "b06f4674-ab0a-4358-bb50-272bd7d3c272",
+                "height": 236.0,
+                "width": 200.0,
+                "x": 4990.0,
+                "y": 2343.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6744303703308105,
+                "detection_id": "4edc8e54-d595-4e9c-b8c6-f0076f9a2a67",
+                "height": 196.0,
+                "width": 192.0,
+                "x": 1804.0,
+                "y": 955.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6741254925727844,
+                "detection_id": "a629ebec-cc2d-4987-a433-b543df46f289",
+                "height": 222.0,
+                "width": 218.0,
+                "x": 863.0,
+                "y": 1435.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6732636094093323,
+                "detection_id": "687fa167-e350-4ee8-a702-052a81767651",
+                "height": 195.0,
+                "width": 180.0,
+                "x": 1964.0,
+                "y": 1515.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6695156097412109,
+                "detection_id": "9c20bcbb-74be-4332-8202-bfcbcd2235d8",
+                "height": 193.0,
+                "width": 183.0,
+                "x": 5739.5,
+                "y": 1587.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6639582514762878,
+                "detection_id": "daf3bbc7-9312-4853-a5a9-790edc3bc6b0",
+                "height": 217.0,
+                "width": 210.0,
+                "x": 4682.0,
+                "y": 401.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6595467329025269,
+                "detection_id": "177b5eb7-a93a-40bf-87ce-7062cedbed3d",
+                "height": 242.0,
+                "width": 207.0,
+                "x": 292.5,
+                "y": 643.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6344516277313232,
+                "detection_id": "a170d380-388e-4153-be84-2d211e428532",
+                "height": 232.0,
+                "width": 215.0,
+                "x": 5748.5,
+                "y": 1841.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6215434074401855,
+                "detection_id": "4ccf4389-f581-4ca1-af12-b7f61018c9fa",
+                "height": 214.0,
+                "width": 192.0,
+                "x": 3374.0,
+                "y": 1800.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.6046517491340637,
+                "detection_id": "730ff9c4-34de-403c-aaa0-09ee5b4ae465",
+                "height": 193.0,
+                "width": 179.0,
+                "x": 2838.5,
+                "y": 751.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5978837609291077,
+                "detection_id": "31d9212f-2b5f-4b28-ac32-2b9ef271fdf8",
+                "height": 170.0,
+                "width": 156.0,
+                "x": 3397.0,
+                "y": 741.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5818166732788086,
+                "detection_id": "bb7f8e23-781a-4344-8f25-d58960a13fe4",
+                "height": 237.0,
+                "width": 245.0,
+                "x": 4326.5,
+                "y": 2009.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.577307939529419,
+                "detection_id": "aead345b-c107-45e5-be1a-390bd33086b0",
+                "height": 229.0,
+                "width": 218.0,
+                "x": 5337.0,
+                "y": 1386.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5666512846946716,
+                "detection_id": "17b8bf12-4d57-44ae-80f9-0944e4156fe2",
+                "height": 236.0,
+                "width": 249.0,
+                "x": 3120.5,
+                "y": 531.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5640807747840881,
+                "detection_id": "929798a6-dec5-45ab-9b02-245209a94b76",
+                "height": 236.0,
+                "width": 126.0,
+                "x": 63.0,
+                "y": 2326.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5618943572044373,
+                "detection_id": "b1a112b9-071f-4eed-8a45-7b8a743ce6d4",
+                "height": 164.0,
+                "width": 162.0,
+                "x": 2073.0,
+                "y": 541.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5499297976493835,
+                "detection_id": "e555273c-cc23-449e-a8cc-96281596fadb",
+                "height": 190.0,
+                "width": 153.0,
+                "x": 77.5,
+                "y": 1472.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5461840033531189,
+                "detection_id": "353e3782-5d30-4af6-ac36-c49e8dcc741a",
+                "height": 224.0,
+                "width": 214.0,
+                "x": 4683.0,
+                "y": 1036.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.5352545380592346,
+                "detection_id": "c7bae97d-0c82-44a2-8ec4-34dabcd06e16",
+                "height": 231.0,
+                "width": 224.0,
+                "x": 2697.0,
+                "y": 1433.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.48416727781295776,
+                "detection_id": "20f32214-24b9-4079-9672-a880b9107350",
+                "height": 208.0,
+                "width": 219.0,
+                "x": 4025.5,
+                "y": 964.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.47612065076828003,
+                "detection_id": "b87a449a-59d5-4e1e-8b1e-abaacfbe1d60",
+                "height": 208.0,
+                "width": 213.0,
+                "x": 3585.5,
+                "y": 615.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.45886629819869995,
+                "detection_id": "f97aa60e-7983-4487-8ccf-86d6b0ca7e01",
+                "height": 148.0,
+                "width": 165.0,
+                "x": 3061.5,
+                "y": 834.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.45401257276535034,
+                "detection_id": "254cd275-e1f5-46ae-80e4-9db697f57a34",
+                "height": 213.0,
+                "width": 198.0,
+                "x": 5110.0,
+                "y": 543.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.44362539052963257,
+                "detection_id": "583398a5-de59-44dd-8a7a-45ea1030b057",
+                "height": 143.0,
+                "width": 170.0,
+                "x": 3587.0,
+                "y": 793.5
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.4115070104598999,
+                "detection_id": "fb83b742-b641-442b-84b5-11fb3c707ec1",
+                "height": 58.0,
+                "width": 199.0,
+                "x": 730.5,
+                "y": 29.0
+            },
+            {
+                "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                "class_id": 0,
+                "confidence": 0.40066245198249817,
+                "detection_id": "f4333caf-68fd-4c2f-9283-12c6ace0c4f2",
+                "height": 54.0,
+                "width": 169.0,
+                "x": 2363.5,
+                "y": 27.0
+            }
+        ],
+        "time": 0.2429896670000744
+    }
+}
