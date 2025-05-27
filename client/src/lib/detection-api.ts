@@ -15,15 +15,29 @@ export async function predictImage(imageFile: File): Promise<DetectionResponse> 
 
   const roboflowData: RoboflowResponse = await response.json();
   
-  // Transform Roboflow predictions to our Detection format
-  const detections = roboflowData.result.predictions.map(prediction => ({
-    class: prediction.class.split(' - ')[0], // Remove the version info from class name
-    confidence: prediction.confidence,
-    x: prediction.x - (prediction.width / 2), // Convert center-based to top-left coordinates
-    y: prediction.y - (prediction.height / 2),
-    width: prediction.width,
-    height: prediction.height,
-  }));
+  // Transform combined results to our Detection format
+  const detections = roboflowData.result.combined_result.map(result => {
+    const crowdData = result.crowd_density;
+    const facialData = result.facial_expression;
+    
+    // Get the facial expression with highest confidence, if any
+    const topFacialExpression = facialData.predictions.length > 0 
+      ? facialData.predictions.reduce((prev, current) => 
+          prev.confidence > current.confidence ? prev : current
+        )
+      : null;
+    
+    return {
+      class: crowdData.class.split(' - ')[0], // Remove the version info from class name
+      confidence: crowdData.confidence,
+      x: crowdData.x - (crowdData.width / 2), // Convert center-based to top-left coordinates
+      y: crowdData.y - (crowdData.height / 2),
+      width: crowdData.width,
+      height: crowdData.height,
+      mood: topFacialExpression?.class || undefined,
+      moodConfidence: topFacialExpression?.confidence || undefined,
+    };
+  });
 
   return { detections };
 }

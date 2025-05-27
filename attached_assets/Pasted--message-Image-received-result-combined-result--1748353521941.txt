@@ -1,0 +1,1791 @@
+{
+    "message": "Image received",
+    "result": {
+        "combined_result": [
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7554444074630737,
+                    "detection_id": "9600c7c3-47a0-4054-a026-35cc811dc26e",
+                    "height": 27.0,
+                    "width": 24.0,
+                    "x": 351.0,
+                    "y": 375.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 27,
+                        "width": 24
+                    },
+                    "inference_id": "0349eb80-af53-4c9c-ae61-3352c622bf60",
+                    "predictions": [],
+                    "time": 0.2332924579968676
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7494089007377625,
+                    "detection_id": "36f98c7b-d2d6-4380-af61-6e111508d184",
+                    "height": 67.0,
+                    "width": 55.0,
+                    "x": 745.5,
+                    "y": 499.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 67,
+                        "width": 55
+                    },
+                    "inference_id": "fc74ec45-3b78-459f-b59a-c80e08762f05",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8639371395111084,
+                            "detection_id": "c2c8b583-11c3-4d53-9bb7-0e9e7b9b64e8",
+                            "height": 67.0,
+                            "width": 55.0,
+                            "x": 27.5,
+                            "y": 33.5
+                        }
+                    ],
+                    "time": 0.14128458299819613
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7436165809631348,
+                    "detection_id": "bb86191a-de29-44e2-9031-36a9913435ec",
+                    "height": 35.0,
+                    "width": 31.0,
+                    "x": 968.5,
+                    "y": 386.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 35,
+                        "width": 31
+                    },
+                    "inference_id": "f654bb6e-efdf-49ce-a7d9-7e7fa94f7cb0",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8152505159378052,
+                            "detection_id": "3d81aa8d-7b45-4919-90d1-799adba5c46e",
+                            "height": 35.0,
+                            "width": 31.0,
+                            "x": 15.5,
+                            "y": 17.5
+                        }
+                    ],
+                    "time": 0.13880562499980442
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.728287398815155,
+                    "detection_id": "e0dc38cc-a94f-4051-9954-aad8bde8e2f5",
+                    "height": 59.0,
+                    "width": 50.0,
+                    "x": 563.0,
+                    "y": 458.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 59,
+                        "width": 50
+                    },
+                    "inference_id": "83b5c9bc-e69d-4720-93c6-6a8f6123b8bf",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.4518735110759735,
+                            "detection_id": "daca6709-cf04-4113-8fd6-e8d4d74296e9",
+                            "height": 59.0,
+                            "width": 50.0,
+                            "x": 25.0,
+                            "y": 29.5
+                        }
+                    ],
+                    "time": 0.1533267920021899
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7258720397949219,
+                    "detection_id": "7c75a3c8-a110-4f06-b4dd-8fcd1e5c2648",
+                    "height": 28.0,
+                    "width": 28.0,
+                    "x": 57.0,
+                    "y": 394.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 28,
+                        "width": 28
+                    },
+                    "inference_id": "396e43e7-c2a2-42bc-a001-064af4a124f7",
+                    "predictions": [],
+                    "time": 0.15157241699489532
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7223949432373047,
+                    "detection_id": "7c65eef4-93b8-4e51-8d74-81804fde512e",
+                    "height": 31.0,
+                    "width": 28.0,
+                    "x": 398.0,
+                    "y": 441.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 31,
+                        "width": 28
+                    },
+                    "inference_id": "29c2791e-e4a2-49d3-998e-0525ddcfe308",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8076238632202148,
+                            "detection_id": "58f3ee39-9320-4900-9167-10285f866bb8",
+                            "height": 31.0,
+                            "width": 28.0,
+                            "x": 14.0,
+                            "y": 15.5
+                        }
+                    ],
+                    "time": 0.15290312500292202
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7116778492927551,
+                    "detection_id": "52c64738-00fb-4bbf-9022-231d6de4286e",
+                    "height": 62.0,
+                    "width": 56.0,
+                    "x": 906.0,
+                    "y": 548.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 62,
+                        "width": 56
+                    },
+                    "inference_id": "4a5c518e-1213-4bd8-b08a-37cc5e9e5505",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8069427013397217,
+                            "detection_id": "3b3630f9-ccdf-4633-96e4-b2f0fb962fb3",
+                            "height": 62.0,
+                            "width": 56.0,
+                            "x": 28.0,
+                            "y": 31.0
+                        }
+                    ],
+                    "time": 0.14131175000511575
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7112829685211182,
+                    "detection_id": "c18501f8-4c96-4d6f-ba8b-6022a9703956",
+                    "height": 29.0,
+                    "width": 26.0,
+                    "x": 862.0,
+                    "y": 346.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 29,
+                        "width": 26
+                    },
+                    "inference_id": "9b40c47e-72a7-4299-a52d-a9bae6d6f7b8",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8235535621643066,
+                            "detection_id": "8c8c1275-3964-4dc6-97f8-bd8c62bb70c2",
+                            "height": 29.0,
+                            "width": 26.0,
+                            "x": 13.0,
+                            "y": 14.5
+                        }
+                    ],
+                    "time": 0.1620536250047735
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7097775936126709,
+                    "detection_id": "79dee320-7926-49ab-9c5b-e0756a427c05",
+                    "height": 30.0,
+                    "width": 28.0,
+                    "x": 227.0,
+                    "y": 384.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 30,
+                        "width": 28
+                    },
+                    "inference_id": "e690bbc3-0df5-43be-8cfd-c87f44dbe5a3",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6589365601539612,
+                            "detection_id": "929d7341-e1f9-4e9f-9197-7a1cb0aa00e9",
+                            "height": 30.0,
+                            "width": 28.0,
+                            "x": 14.0,
+                            "y": 15.0
+                        }
+                    ],
+                    "time": 0.14721854199888185
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.7071459293365479,
+                    "detection_id": "60c52559-bc78-43a5-8cd5-f6b90a09648c",
+                    "height": 29.0,
+                    "width": 28.0,
+                    "x": 951.0,
+                    "y": 347.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 29,
+                        "width": 28
+                    },
+                    "inference_id": "8efb4ac6-ab45-425c-849f-72a61a9bb23b",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8405395746231079,
+                            "detection_id": "118646ac-1e3f-4498-a19e-fe0106e43d40",
+                            "height": 29.0,
+                            "width": 28.0,
+                            "x": 14.0,
+                            "y": 14.5
+                        }
+                    ],
+                    "time": 0.1572161669973866
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.694839596748352,
+                    "detection_id": "1dbe6021-c331-4b1a-b7ce-cc0b938e5bbe",
+                    "height": 63.0,
+                    "width": 57.0,
+                    "x": 283.5,
+                    "y": 516.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 63,
+                        "width": 57
+                    },
+                    "inference_id": "e6b8ea54-1129-4e95-af6b-86c1b4800be4",
+                    "predictions": [],
+                    "time": 0.15153545799694257
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6919116973876953,
+                    "detection_id": "e58a63a8-9625-4d03-b6ab-b6e2b47b564b",
+                    "height": 32.0,
+                    "width": 28.0,
+                    "x": 791.0,
+                    "y": 375.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 32,
+                        "width": 28
+                    },
+                    "inference_id": "7f9266ec-3f2a-420a-bbf9-f8fb49b4703d",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8493362665176392,
+                            "detection_id": "4ee2251f-02e2-40e5-b70e-1aed3a5f1010",
+                            "height": 32.0,
+                            "width": 28.0,
+                            "x": 14.0,
+                            "y": 16.0
+                        }
+                    ],
+                    "time": 0.14374441700056195
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6770471930503845,
+                    "detection_id": "6d6bf56d-f48f-4ff3-92e5-980acc173566",
+                    "height": 27.0,
+                    "width": 23.0,
+                    "x": 458.5,
+                    "y": 365.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 27,
+                        "width": 23
+                    },
+                    "inference_id": "5830ae69-9cde-4ccc-ba2c-24d349469743",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.5126051306724548,
+                            "detection_id": "a8864233-2091-4a5b-9db4-917ab77c01b2",
+                            "height": 13.0,
+                            "width": 23.0,
+                            "x": 11.5,
+                            "y": 20.5
+                        }
+                    ],
+                    "time": 0.15426441699673887
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6755588054656982,
+                    "detection_id": "0bc406ad-a9e0-4814-b193-2dba9cd87dd9",
+                    "height": 29.0,
+                    "width": 29.0,
+                    "x": 982.5,
+                    "y": 327.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 29,
+                        "width": 29
+                    },
+                    "inference_id": "eca12a7c-8f84-4bec-8003-f3eef4efd611",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.5496305823326111,
+                            "detection_id": "90c0b062-435e-4697-89e8-3230aa32d78d",
+                            "height": 29.0,
+                            "width": 29.0,
+                            "x": 14.5,
+                            "y": 14.5
+                        }
+                    ],
+                    "time": 0.1611019589981879
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6752467155456543,
+                    "detection_id": "90d25218-b5df-426b-b1a8-0317eb62f4bc",
+                    "height": 50.0,
+                    "width": 44.0,
+                    "x": 515.0,
+                    "y": 434.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 50,
+                        "width": 44
+                    },
+                    "inference_id": "4250c133-6427-498c-9b19-ad6a8e8c232b",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6042766571044922,
+                            "detection_id": "c6dd6544-0c11-4914-be85-8a936809ad7f",
+                            "height": 50.0,
+                            "width": 44.0,
+                            "x": 22.0,
+                            "y": 25.0
+                        }
+                    ],
+                    "time": 0.14706037499854574
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.674994945526123,
+                    "detection_id": "2f7f60bf-cfe2-4f6c-bb43-af1bd759f821",
+                    "height": 18.0,
+                    "width": 19.0,
+                    "x": 887.5,
+                    "y": 313.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 18,
+                        "width": 19
+                    },
+                    "inference_id": "efc9a878-9e92-4c8a-a1f0-dd676f617fbc",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6806842684745789,
+                            "detection_id": "5655f957-f12a-42b5-b9fe-690232b1ee11",
+                            "height": 18.0,
+                            "width": 19.0,
+                            "x": 9.5,
+                            "y": 9.0
+                        }
+                    ],
+                    "time": 0.15172945800441084
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6723628044128418,
+                    "detection_id": "565cb8f5-a8ad-40fe-9a24-ce09fa122051",
+                    "height": 21.0,
+                    "width": 19.0,
+                    "x": 826.5,
+                    "y": 335.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 21,
+                        "width": 19
+                    },
+                    "inference_id": "52d12d35-a3f2-44fd-b14e-3d44c8b28fa0",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7575145959854126,
+                            "detection_id": "ff8ad683-7edf-4676-bca0-a99b161b7d7b",
+                            "height": 21.0,
+                            "width": 19.0,
+                            "x": 9.5,
+                            "y": 10.5
+                        }
+                    ],
+                    "time": 0.1468678329983959
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6607071161270142,
+                    "detection_id": "0a8e8aff-7560-4975-b12f-6b69534a9fac",
+                    "height": 17.0,
+                    "width": 16.0,
+                    "x": 723.0,
+                    "y": 324.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 17,
+                        "width": 16
+                    },
+                    "inference_id": "fd84bb81-0672-4031-8264-3a035abe9b1f",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7839165925979614,
+                            "detection_id": "d8bb02d8-e7fd-4ccb-9146-49b915bd83ec",
+                            "height": 17.0,
+                            "width": 16.0,
+                            "x": 8.0,
+                            "y": 8.5
+                        }
+                    ],
+                    "time": 0.13858945799438516
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6569355726242065,
+                    "detection_id": "7dc2ed53-e012-449c-ad15-20320e58f4c4",
+                    "height": 22.0,
+                    "width": 21.0,
+                    "x": 656.5,
+                    "y": 340.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 22,
+                        "width": 21
+                    },
+                    "inference_id": "bbc4ffd0-73a7-4bb8-87ea-2f4a27687623",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7229387760162354,
+                            "detection_id": "2a2f18f7-8024-4544-ae13-4818aea710bf",
+                            "height": 22.0,
+                            "width": 21.0,
+                            "x": 10.5,
+                            "y": 11.0
+                        }
+                    ],
+                    "time": 0.1442003330012085
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.655102550983429,
+                    "detection_id": "215aa49d-9267-4c43-bdab-b98c17233324",
+                    "height": 56.0,
+                    "width": 53.0,
+                    "x": 200.5,
+                    "y": 521.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 56,
+                        "width": 53
+                    },
+                    "inference_id": "67733b74-867c-4877-84fc-1b2a1969df41",
+                    "predictions": [],
+                    "time": 0.16535216700140154
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.644295334815979,
+                    "detection_id": "3c13be2b-1f8b-4a83-bb21-887c3435531f",
+                    "height": 16.0,
+                    "width": 15.0,
+                    "x": 670.5,
+                    "y": 319.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 16,
+                        "width": 15
+                    },
+                    "inference_id": "3995bb86-1a53-4d4b-b0b4-7083a3d2575c",
+                    "predictions": [],
+                    "time": 0.13476287500088802
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6426810622215271,
+                    "detection_id": "63d642bc-4da2-40c4-9a21-4a25d7fc33c8",
+                    "height": 34.0,
+                    "width": 33.0,
+                    "x": 264.5,
+                    "y": 407.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 34,
+                        "width": 33
+                    },
+                    "inference_id": "db131502-d5c4-4a29-9ad4-877367e30dde",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8679933547973633,
+                            "detection_id": "93a1a591-33dc-4541-ae36-9058dc61130c",
+                            "height": 34.0,
+                            "width": 33.0,
+                            "x": 16.5,
+                            "y": 17.0
+                        }
+                    ],
+                    "time": 0.14108141700125998
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6400080919265747,
+                    "detection_id": "0637bc43-563c-4ae5-aa21-d349e8b342be",
+                    "height": 34.0,
+                    "width": 29.0,
+                    "x": 14.5,
+                    "y": 402.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 34,
+                        "width": 29
+                    },
+                    "inference_id": "ce6a438a-e7e8-48a6-aa23-c743426d7e75",
+                    "predictions": [],
+                    "time": 0.15421670799696585
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6292996406555176,
+                    "detection_id": "3c5062c1-9f3f-4b39-8369-a7a727d48b0e",
+                    "height": 51.0,
+                    "width": 45.0,
+                    "x": 833.5,
+                    "y": 441.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 51,
+                        "width": 45
+                    },
+                    "inference_id": "a63f971a-84b4-4419-bd56-e482a5bcc130",
+                    "predictions": [],
+                    "time": 0.15080404200125486
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6237713098526001,
+                    "detection_id": "7334d606-5a85-4088-aea7-2cbfb4034940",
+                    "height": 28.0,
+                    "width": 23.0,
+                    "x": 556.5,
+                    "y": 368.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 28,
+                        "width": 23
+                    },
+                    "inference_id": "6d9a2f13-d2ef-4a2a-8523-4a0d02e6ee79",
+                    "predictions": [],
+                    "time": 0.13585054199938895
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6065986156463623,
+                    "detection_id": "255a3328-e320-4d13-881f-bdf839b4a012",
+                    "height": 18.0,
+                    "width": 19.0,
+                    "x": 173.5,
+                    "y": 353.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 18,
+                        "width": 19
+                    },
+                    "inference_id": "996ab95c-38db-484f-a5ab-6c7440bd79b5",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.4721823036670685,
+                            "detection_id": "b87ed1d4-a4b3-442e-928e-24999ae90a21",
+                            "height": 18.0,
+                            "width": 19.0,
+                            "x": 9.5,
+                            "y": 9.0
+                        }
+                    ],
+                    "time": 0.14749654199840734
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.6041497588157654,
+                    "detection_id": "4f8ff266-be1e-4b1c-964a-f9d4d2bce7d1",
+                    "height": 21.0,
+                    "width": 19.0,
+                    "x": 595.5,
+                    "y": 337.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 21,
+                        "width": 19
+                    },
+                    "inference_id": "095e11b4-3cfb-43a2-8546-0467a49f5e89",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7007863521575928,
+                            "detection_id": "372c9804-b07b-4da4-8f7c-939e80023bbe",
+                            "height": 21.0,
+                            "width": 19.0,
+                            "x": 9.5,
+                            "y": 10.5
+                        }
+                    ],
+                    "time": 0.1418866669991985
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5981829166412354,
+                    "detection_id": "0679ac4b-cb76-452d-ae0a-5575311ba55d",
+                    "height": 23.0,
+                    "width": 21.0,
+                    "x": 741.5,
+                    "y": 355.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 23,
+                        "width": 21
+                    },
+                    "inference_id": "39390da6-53fa-4bc8-a557-edf5b4078b09",
+                    "predictions": [],
+                    "time": 0.15324733300076332
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5963081121444702,
+                    "detection_id": "a31715c4-5025-4df3-bf06-063fe8c1e5f6",
+                    "height": 20.0,
+                    "width": 17.0,
+                    "x": 405.5,
+                    "y": 336.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 20,
+                        "width": 17
+                    },
+                    "inference_id": "4e01e706-ea56-4ee5-a325-cc43f6936d69",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6663631200790405,
+                            "detection_id": "adf71bc0-c231-4ce9-99f4-d095dd31943f",
+                            "height": 20.0,
+                            "width": 17.0,
+                            "x": 8.5,
+                            "y": 10.0
+                        }
+                    ],
+                    "time": 0.13942720900377026
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5865359306335449,
+                    "detection_id": "c86e50db-cd81-4221-ad7b-8380b9dffa5d",
+                    "height": 23.0,
+                    "width": 22.0,
+                    "x": 767.0,
+                    "y": 350.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 23,
+                        "width": 22
+                    },
+                    "inference_id": "3df7a41c-b7bd-499d-87a0-f971243a736c",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7124847173690796,
+                            "detection_id": "0ffaf972-6c53-43d6-8211-4c847cc74ccf",
+                            "height": 23.0,
+                            "width": 22.0,
+                            "x": 11.0,
+                            "y": 11.5
+                        }
+                    ],
+                    "time": 0.1340309170045657
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5864027738571167,
+                    "detection_id": "25033530-fdc0-4a2b-979a-e837a2b06783",
+                    "height": 27.0,
+                    "width": 28.0,
+                    "x": 173.0,
+                    "y": 382.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 27,
+                        "width": 28
+                    },
+                    "inference_id": "744c965c-ae5d-4f4f-9791-a00f04d2b582",
+                    "predictions": [],
+                    "time": 0.1370290000049863
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5722363591194153,
+                    "detection_id": "e1e2762e-f192-4b5e-8536-f0db41007335",
+                    "height": 13.0,
+                    "width": 14.0,
+                    "x": 318.0,
+                    "y": 327.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 13,
+                        "width": 14
+                    },
+                    "inference_id": "9daf0f94-45e5-4188-9cb7-1155ad994ea8",
+                    "predictions": [],
+                    "time": 0.14461887499783188
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5667476654052734,
+                    "detection_id": "0cb085cf-e706-430d-bd6b-79d37113bd19",
+                    "height": 44.0,
+                    "width": 43.0,
+                    "x": 218.5,
+                    "y": 634.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 44,
+                        "width": 43
+                    },
+                    "inference_id": "c9116a2a-5d5e-407b-82b9-7f568a52bf0c",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.5270839333534241,
+                            "detection_id": "f36b6450-9999-4aa8-a369-2d16b7f83c85",
+                            "height": 44.0,
+                            "width": 43.0,
+                            "x": 21.5,
+                            "y": 22.0
+                        }
+                    ],
+                    "time": 0.14282845900015673
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5656186938285828,
+                    "detection_id": "8700aee3-6a40-4958-978a-ecfd8aa3fd65",
+                    "height": 29.0,
+                    "width": 29.0,
+                    "x": 89.5,
+                    "y": 380.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 29,
+                        "width": 29
+                    },
+                    "inference_id": "03d39f2c-eb53-4b17-a5dc-541673d5d4ad",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.44143420457839966,
+                            "detection_id": "28fc67af-c1f0-4ac9-92d8-fec30fbee97e",
+                            "height": 29.0,
+                            "width": 29.0,
+                            "x": 14.5,
+                            "y": 14.5
+                        }
+                    ],
+                    "time": 0.15599745800136589
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5653083324432373,
+                    "detection_id": "fb671bcd-de3f-42b9-8d05-cec17b62ed31",
+                    "height": 18.0,
+                    "width": 15.0,
+                    "x": 705.5,
+                    "y": 322.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 18,
+                        "width": 15
+                    },
+                    "inference_id": "2bd16d0d-5d87-470e-a31b-f4e7ae6e4cf5",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.5780197381973267,
+                            "detection_id": "4f368a6a-2c24-4c26-90c0-a58053484645",
+                            "height": 18.0,
+                            "width": 15.0,
+                            "x": 7.5,
+                            "y": 9.0
+                        }
+                    ],
+                    "time": 0.15009366600133944
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5623947978019714,
+                    "detection_id": "4f504e0d-0069-4da2-a7ab-c3f363351033",
+                    "height": 18.0,
+                    "width": 16.0,
+                    "x": 814.0,
+                    "y": 315.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 18,
+                        "width": 16
+                    },
+                    "inference_id": "89a22338-8c86-4773-8c66-c7e7f4774498",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7621557712554932,
+                            "detection_id": "ca3d314e-095e-47ae-b22f-86065842906d",
+                            "height": 18.0,
+                            "width": 16.0,
+                            "x": 8.0,
+                            "y": 9.0
+                        }
+                    ],
+                    "time": 0.14559054099663626
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5502104163169861,
+                    "detection_id": "b045a4e5-5848-4c7d-8bd9-ae406348f6fb",
+                    "height": 16.0,
+                    "width": 18.0,
+                    "x": 133.0,
+                    "y": 344.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 16,
+                        "width": 18
+                    },
+                    "inference_id": "3934758f-9159-49ce-8733-a1471ff0f2fc",
+                    "predictions": [],
+                    "time": 0.153719165995426
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5489110350608826,
+                    "detection_id": "8c9b5850-3213-4582-b6fb-94e50e99e2b4",
+                    "height": 37.0,
+                    "width": 31.0,
+                    "x": 959.5,
+                    "y": 488.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 37,
+                        "width": 31
+                    },
+                    "inference_id": "cca1d132-d64c-419c-85ae-82369b2bd20f",
+                    "predictions": [],
+                    "time": 0.15205933400284266
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5431177020072937,
+                    "detection_id": "efb10fbc-f7e3-4921-a63f-72c8663d45fa",
+                    "height": 28.0,
+                    "width": 25.0,
+                    "x": 399.5,
+                    "y": 385.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 28,
+                        "width": 25
+                    },
+                    "inference_id": "7bb09ce3-0880-4fd1-9939-5875c5150eda",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6672751307487488,
+                            "detection_id": "a4e146a8-764a-4e08-8d39-33905736231d",
+                            "height": 27.0,
+                            "width": 25.0,
+                            "x": 12.5,
+                            "y": 13.5
+                        }
+                    ],
+                    "time": 0.14361841699428624
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5399868488311768,
+                    "detection_id": "055ab01f-2b94-4631-9f02-54a11747acc9",
+                    "height": 20.0,
+                    "width": 19.0,
+                    "x": 220.5,
+                    "y": 351.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 20,
+                        "width": 19
+                    },
+                    "inference_id": "9178e0a0-82d3-4a40-bec3-defc81f3403a",
+                    "predictions": [],
+                    "time": 0.14192208299937192
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5398289561271667,
+                    "detection_id": "becb46af-3915-4166-82e9-9d10f8660c93",
+                    "height": 17.0,
+                    "width": 15.0,
+                    "x": 357.5,
+                    "y": 336.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 17,
+                        "width": 15
+                    },
+                    "inference_id": "8720e30d-db8e-47e6-9a0b-e7ba2a1d85b5",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.5450558662414551,
+                            "detection_id": "71b0629a-bb11-49ba-8bf6-e0c13d4609c1",
+                            "height": 17.0,
+                            "width": 15.0,
+                            "x": 7.5,
+                            "y": 8.5
+                        }
+                    ],
+                    "time": 0.13355483299528714
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5320422649383545,
+                    "detection_id": "11156a22-37d5-4509-a601-d732bd82b7b6",
+                    "height": 20.0,
+                    "width": 25.0,
+                    "x": 60.5,
+                    "y": 367.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 20,
+                        "width": 25
+                    },
+                    "inference_id": "77c45311-07b0-4171-83ff-03c3a30fe805",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.48104801774024963,
+                            "detection_id": "2141dbfa-5026-4acd-8505-0097fe7f9350",
+                            "height": 20.0,
+                            "width": 24.0,
+                            "x": 13.0,
+                            "y": 10.0
+                        }
+                    ],
+                    "time": 0.13254604199755704
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5299971699714661,
+                    "detection_id": "535d4c8e-c0f0-490a-b8d4-6528c9662f67",
+                    "height": 17.0,
+                    "width": 18.0,
+                    "x": 957.0,
+                    "y": 315.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 17,
+                        "width": 18
+                    },
+                    "inference_id": "d9b4bdd7-6ed1-4980-a712-42ce702f8e76",
+                    "predictions": [],
+                    "time": 0.14632654199522221
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5246978998184204,
+                    "detection_id": "df026503-80b2-43db-b0be-e98dbe908660",
+                    "height": 21.0,
+                    "width": 17.0,
+                    "x": 686.5,
+                    "y": 343.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 21,
+                        "width": 17
+                    },
+                    "inference_id": "697822d0-fd12-4afc-93cd-cf22020d0ff1",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7069598436355591,
+                            "detection_id": "01f7daff-e446-4ac8-be94-6ae868d20576",
+                            "height": 21.0,
+                            "width": 17.0,
+                            "x": 8.5,
+                            "y": 10.5
+                        }
+                    ],
+                    "time": 0.16428054100106237
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5158506035804749,
+                    "detection_id": "7eeb5796-a4c9-4416-add4-1f81bc65e782",
+                    "height": 17.0,
+                    "width": 17.0,
+                    "x": 202.5,
+                    "y": 347.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 17,
+                        "width": 17
+                    },
+                    "inference_id": "a136b648-3be9-4c27-8027-f3961cca449e",
+                    "predictions": [],
+                    "time": 0.1534765830001561
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5123705863952637,
+                    "detection_id": "ed3e4242-7492-4053-8f14-253b50f5ab76",
+                    "height": 19.0,
+                    "width": 15.0,
+                    "x": 488.5,
+                    "y": 324.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 19,
+                        "width": 15
+                    },
+                    "inference_id": "1fd3fdc5-743b-4f4c-956a-8044f3970de6",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.7517810463905334,
+                            "detection_id": "be75ae9f-4f32-4683-a736-0b9b9f2a6d83",
+                            "height": 19.0,
+                            "width": 15.0,
+                            "x": 7.5,
+                            "y": 9.5
+                        }
+                    ],
+                    "time": 0.170171499994467
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5101001858711243,
+                    "detection_id": "f38ea710-ce71-44f1-ad74-4efa7f4b3f5e",
+                    "height": 14.0,
+                    "width": 13.0,
+                    "x": 748.5,
+                    "y": 311.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 14,
+                        "width": 13
+                    },
+                    "inference_id": "8964d186-92bd-4122-8dae-a80aadd4a577",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6588625907897949,
+                            "detection_id": "f27d5ab9-d01b-4751-b2b9-13685a1095fc",
+                            "height": 14.0,
+                            "width": 13.0,
+                            "x": 6.5,
+                            "y": 7.0
+                        }
+                    ],
+                    "time": 0.1308498750004219
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.5069606304168701,
+                    "detection_id": "5d74f87c-8406-413c-b446-ff75133f4972",
+                    "height": 48.0,
+                    "width": 27.0,
+                    "x": 13.5,
+                    "y": 512.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 48,
+                        "width": 27
+                    },
+                    "inference_id": "35ac95ce-d823-49cb-96c5-24fed8560c06",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6063808798789978,
+                            "detection_id": "fdb0acf4-2285-4366-89b0-dfc1a13f98e9",
+                            "height": 48.0,
+                            "width": 27.0,
+                            "x": 13.5,
+                            "y": 24.0
+                        }
+                    ],
+                    "time": 0.14005016700684791
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.48798924684524536,
+                    "detection_id": "84852949-f56b-49f6-981c-e96483395c88",
+                    "height": 11.0,
+                    "width": 10.0,
+                    "x": 810.0,
+                    "y": 290.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 11,
+                        "width": 10
+                    },
+                    "inference_id": "02629ac7-3117-49f4-8eec-93940c20b124",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.44020605087280273,
+                            "detection_id": "7bc07d4d-0424-4393-9055-4af9cc67a90a",
+                            "height": 11.0,
+                            "width": 10.0,
+                            "x": 5.0,
+                            "y": 5.5
+                        }
+                    ],
+                    "time": 0.1412205000015092
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4831898510456085,
+                    "detection_id": "5aa30570-b5a6-407b-89ae-9ba95d570b82",
+                    "height": 21.0,
+                    "width": 19.0,
+                    "x": 552.5,
+                    "y": 333.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 21,
+                        "width": 19
+                    },
+                    "inference_id": "add1466a-0dee-4ee8-a732-fb9134a3394b",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8307356834411621,
+                            "detection_id": "5be5ee1e-669c-49e5-ae3c-c507be204925",
+                            "height": 21.0,
+                            "width": 19.0,
+                            "x": 9.5,
+                            "y": 10.5
+                        }
+                    ],
+                    "time": 0.13946208400011528
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.47805896401405334,
+                    "detection_id": "250add21-d402-4cf6-9b74-1da88e106757",
+                    "height": 17.0,
+                    "width": 17.0,
+                    "x": 842.5,
+                    "y": 312.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 17,
+                        "width": 17
+                    },
+                    "inference_id": "6cd1b561-5dca-45cd-b849-81a21269ff29",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.5462005734443665,
+                            "detection_id": "d5e19898-dbeb-465f-8e08-7cc969b60d3c",
+                            "height": 17.0,
+                            "width": 17.0,
+                            "x": 8.5,
+                            "y": 8.5
+                        }
+                    ],
+                    "time": 0.1412356250002631
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4740840196609497,
+                    "detection_id": "abd17bbf-3c38-44f4-9ef1-4692b4ae7c41",
+                    "height": 14.0,
+                    "width": 14.0,
+                    "x": 503.0,
+                    "y": 316.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 14,
+                        "width": 14
+                    },
+                    "inference_id": "c86b8b48-b040-4231-a291-4f7b7ec6db54",
+                    "predictions": [],
+                    "time": 0.15168070900108432
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.47220560908317566,
+                    "detection_id": "db1971b5-14b9-478f-8fe4-375d5758f97a",
+                    "height": 18.0,
+                    "width": 17.0,
+                    "x": 784.5,
+                    "y": 326.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 18,
+                        "width": 17
+                    },
+                    "inference_id": "b9d6fcf1-b09b-477c-92d0-1344a2545423",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.8392977118492126,
+                            "detection_id": "87dfdd60-8ad5-4be9-8a11-c2d676b2b43f",
+                            "height": 18.0,
+                            "width": 17.0,
+                            "x": 8.5,
+                            "y": 9.0
+                        }
+                    ],
+                    "time": 0.1316689579980448
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.47102591395378113,
+                    "detection_id": "4860ce9c-02f1-4693-86ab-db4a6aeb2b6d",
+                    "height": 19.0,
+                    "width": 18.0,
+                    "x": 321.0,
+                    "y": 342.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 19,
+                        "width": 18
+                    },
+                    "inference_id": "4b33b2b5-5e0b-4c19-8bb2-e45961c0daae",
+                    "predictions": [],
+                    "time": 0.13883483300014632
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4601122736930847,
+                    "detection_id": "b79a8d9a-7238-4dde-9394-352b9e995bbe",
+                    "height": 15.0,
+                    "width": 15.0,
+                    "x": 303.5,
+                    "y": 326.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 15,
+                        "width": 15
+                    },
+                    "inference_id": "8de5c1a0-7ea4-47b5-8cce-031b89bc9026",
+                    "predictions": [],
+                    "time": 0.13644270900113042
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4394626021385193,
+                    "detection_id": "f24c5458-2581-4654-ab9f-a351755b73d6",
+                    "height": 41.0,
+                    "width": 46.0,
+                    "x": 38.0,
+                    "y": 453.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 41,
+                        "width": 46
+                    },
+                    "inference_id": "18817f08-f889-479f-9fd2-fbc54e86baf3",
+                    "predictions": [],
+                    "time": 0.13614258299639914
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.43338677287101746,
+                    "detection_id": "89ea977a-1003-491f-bacd-5b7c660eedf0",
+                    "height": 9.0,
+                    "width": 9.0,
+                    "x": 673.5,
+                    "y": 291.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 9,
+                        "width": 9
+                    },
+                    "inference_id": "693db30b-7e1f-46b5-ac7d-cd376db2cda9",
+                    "predictions": [],
+                    "time": 0.14917741699900944
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.43178480863571167,
+                    "detection_id": "e9ddf555-ad08-4a4c-9e59-a8f47029a17e",
+                    "height": 11.0,
+                    "width": 12.0,
+                    "x": 981.0,
+                    "y": 291.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 11,
+                        "width": 12
+                    },
+                    "inference_id": "b57bca6b-98d8-437d-b687-8901110706a3",
+                    "predictions": [],
+                    "time": 0.13870870800019475
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.42782658338546753,
+                    "detection_id": "6dbfa9fc-aa22-4ad5-8533-d75937e77f78",
+                    "height": 11.0,
+                    "width": 11.0,
+                    "x": 327.5,
+                    "y": 310.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 11,
+                        "width": 11
+                    },
+                    "inference_id": "a1c4c80c-cb3f-43ae-bdc7-caa73bc5a2f2",
+                    "predictions": [],
+                    "time": 0.14609129200107418
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4265710711479187,
+                    "detection_id": "da29edc2-75a8-4218-af74-5116aa30dfc0",
+                    "height": 10.0,
+                    "width": 10.0,
+                    "x": 466.0,
+                    "y": 298.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 10,
+                        "width": 10
+                    },
+                    "inference_id": "bfe58a97-e7b3-4598-8c68-d44348b6872e",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.6741060018539429,
+                            "detection_id": "8fd41e53-a01e-459d-b55b-1b536f93c6c5",
+                            "height": 10.0,
+                            "width": 10.0,
+                            "x": 5.0,
+                            "y": 5.0
+                        }
+                    ],
+                    "time": 0.13770929200109094
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4241792559623718,
+                    "detection_id": "abf0e176-f4b7-4ccd-8808-4034e3b5ff95",
+                    "height": 12.0,
+                    "width": 11.0,
+                    "x": 534.5,
+                    "y": 304.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 12,
+                        "width": 11
+                    },
+                    "inference_id": "beaac539-2621-4283-8506-5f32fd0e92d0",
+                    "predictions": [],
+                    "time": 0.13635462499951245
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.42134207487106323,
+                    "detection_id": "09c17280-ca6b-42db-98c6-251fb9e49e8a",
+                    "height": 9.0,
+                    "width": 9.0,
+                    "x": 273.5,
+                    "y": 299.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 9,
+                        "width": 9
+                    },
+                    "inference_id": "2d412b56-3b0e-4110-b006-f44d93b64a94",
+                    "predictions": [
+                        {
+                            "class": "angry",
+                            "class_id": 0,
+                            "confidence": 0.573615550994873,
+                            "detection_id": "dee2d0b3-2372-4128-9d96-0ad2b69aa25f",
+                            "height": 9.0,
+                            "width": 9.0,
+                            "x": 4.5,
+                            "y": 4.5
+                        }
+                    ],
+                    "time": 0.13012537499889731
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4193524420261383,
+                    "detection_id": "71a94a89-c69c-405e-beb2-bac1b0c90f4d",
+                    "height": 13.0,
+                    "width": 14.0,
+                    "x": 11.0,
+                    "y": 326.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 13,
+                        "width": 14
+                    },
+                    "inference_id": "a2fe3812-f663-4d5b-9a22-3b8a719e4e5c",
+                    "predictions": [],
+                    "time": 0.13037329199869419
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4133031368255615,
+                    "detection_id": "496f6e55-070c-4e1b-8a14-7ef2b4278640",
+                    "height": 11.0,
+                    "width": 11.0,
+                    "x": 826.5,
+                    "y": 291.5
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 11,
+                        "width": 11
+                    },
+                    "inference_id": "b1f40950-43c5-4d01-8897-efb89c6eb370",
+                    "predictions": [],
+                    "time": 0.12791095799912
+                }
+            },
+            {
+                "crowd_density": {
+                    "class": "people_counterv0 - v1 2023-05-18 6-22pm",
+                    "class_id": 0,
+                    "confidence": 0.4052964448928833,
+                    "detection_id": "ee64c1da-7917-456d-b513-6d786b4dd651",
+                    "height": 10.0,
+                    "width": 10.0,
+                    "x": 750.0,
+                    "y": 292.0
+                },
+                "facial_expression": {
+                    "image": {
+                        "height": 10,
+                        "width": 10
+                    },
+                    "inference_id": "8ee4540b-6ca1-47d2-ba81-05643d84307c",
+                    "predictions": [],
+                    "time": 0.12875800000620075
+                }
+            }
+        ],
+        "error": false
+    }
+}

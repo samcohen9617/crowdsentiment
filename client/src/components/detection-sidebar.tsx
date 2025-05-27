@@ -7,13 +7,26 @@ interface DetectionSidebarProps {
   imageFile: File | null;
 }
 
-const SENTIMENT_COLORS: Record<string, string> = {
+const MOOD_COLORS: Record<string, string> = {
   'happy': '#10B981',
-  'neutral': '#F59E0B',
-  'sad': '#EF4444',
+  'neutral': '#F59E0B', 
+  'sad': '#3B82F6',
   'angry': '#DC2626',
   'surprised': '#8B5CF6',
+  'fear': '#F97316',
+  'disgust': '#84CC16',
   'default': '#6366F1'
+};
+
+const MOOD_EMOJIS: Record<string, string> = {
+  'happy': '😊',
+  'neutral': '😐',
+  'sad': '😢',
+  'angry': '😠',
+  'surprised': '😲',
+  'fear': '😨',
+  'disgust': '🤢',
+  'default': '👤'
 };
 
 export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProps) {
@@ -70,14 +83,14 @@ export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProp
     createCroppedImages();
   }, [detections, imageFile, hasDetections]);
 
-  // Calculate unique sentiments and their average confidence
-  const sentimentStats = detections.reduce((acc, detection) => {
-    const sentiment = detection.class;
-    if (!acc[sentiment]) {
-      acc[sentiment] = { count: 0, totalConfidence: 0 };
+  // Calculate unique moods and their average confidence
+  const moodStats = detections.reduce((acc, detection) => {
+    const mood = detection.mood || 'unknown';
+    if (!acc[mood]) {
+      acc[mood] = { count: 0, totalConfidence: 0 };
     }
-    acc[sentiment].count += 1;
-    acc[sentiment].totalConfidence += detection.confidence;
+    acc[mood].count += 1;
+    acc[mood].totalConfidence += (detection.moodConfidence || 0);
     return acc;
   }, {} as Record<string, { count: number; totalConfidence: number }>);
 
@@ -88,22 +101,27 @@ export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProp
       
       <h3 className="text-lg font-semibold text-slate-900 mb-4">Detection Details</h3>
       
-      {/* Legend */}
+      {/* Mood Legend */}
       <div className="mb-6">
-        <h4 className="text-sm font-medium text-slate-700 mb-3">Sentiment Categories</h4>
+        <h4 className="text-sm font-medium text-slate-700 mb-3">Detected Moods</h4>
         <div className="space-y-2">
-          {Object.entries(sentimentStats).map(([sentiment, stats]) => {
-            const avgConfidence = Math.round((stats.totalConfidence / stats.count) * 100);
-            const color = SENTIMENT_COLORS[sentiment.toLowerCase()] || SENTIMENT_COLORS.default;
+          {Object.entries(moodStats).map(([mood, stats]) => {
+            const avgConfidence = stats.count > 0 ? Math.round((stats.totalConfidence / stats.count) * 100) : 0;
+            const color = MOOD_COLORS[mood.toLowerCase()] || MOOD_COLORS.default;
+            const emoji = MOOD_EMOJIS[mood.toLowerCase()] || MOOD_EMOJIS.default;
             
             return (
-              <div key={sentiment} className="flex items-center space-x-3">
+              <div key={mood} className="flex items-center space-x-3">
                 <div 
-                  className="w-4 h-4 rounded" 
+                  className="w-4 h-4 rounded flex items-center justify-center text-xs" 
                   style={{ backgroundColor: color }}
-                />
-                <span className="text-sm text-slate-700 capitalize">{sentiment}</span>
-                <span className="text-xs text-slate-500 ml-auto">{avgConfidence}%</span>
+                >
+                  {emoji}
+                </div>
+                <span className="text-sm text-slate-700 capitalize">{mood}</span>
+                <span className="text-xs text-slate-500 ml-auto">
+                  {avgConfidence > 0 ? `${avgConfidence}%` : '--'}
+                </span>
               </div>
             );
           })}
@@ -111,18 +129,18 @@ export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProp
           {!hasDetections && (
             <>
               <div className="flex items-center space-x-3">
-                <div className="w-4 h-4 rounded bg-emerald-500" />
+                <div className="w-4 h-4 rounded bg-emerald-500 flex items-center justify-center text-xs">😊</div>
                 <span className="text-sm text-slate-700">Happy</span>
                 <span className="text-xs text-slate-500 ml-auto">--</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-4 h-4 rounded bg-amber-500" />
-                <span className="text-sm text-slate-700">Neutral</span>
+                <div className="w-4 h-4 rounded bg-red-600 flex items-center justify-center text-xs">😠</div>
+                <span className="text-sm text-slate-700">Angry</span>
                 <span className="text-xs text-slate-500 ml-auto">--</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="w-4 h-4 rounded bg-red-500" />
-                <span className="text-sm text-slate-700">Sad</span>
+                <div className="w-4 h-4 rounded bg-amber-500 flex items-center justify-center text-xs">😐</div>
+                <span className="text-sm text-slate-700">Neutral</span>
                 <span className="text-xs text-slate-500 ml-auto">--</span>
               </div>
             </>
@@ -143,7 +161,9 @@ export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProp
         ) : (
           <div className="space-y-3 max-h-96 overflow-y-auto detection-list">
             {detections.map((detection, index) => {
-              const color = SENTIMENT_COLORS[detection.class?.toLowerCase()] || SENTIMENT_COLORS.default;
+              const mood = detection.mood || 'unknown';
+              const color = MOOD_COLORS[mood.toLowerCase()] || MOOD_COLORS.default;
+              const emoji = MOOD_EMOJIS[mood.toLowerCase()] || MOOD_EMOJIS.default;
               const croppedImage = croppedImages[index];
               
               return (
@@ -153,13 +173,25 @@ export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProp
                 >
                   <div className="flex items-start space-x-3">
                     {/* Cropped image thumbnail */}
-                    <div className="flex-shrink-0">
+                    <div className="flex-shrink-0 relative">
                       {croppedImage ? (
-                        <img
-                          src={croppedImage}
-                          alt={`Detected ${detection.class}`}
-                          className="w-16 h-16 object-cover rounded-md border border-slate-200"
-                        />
+                        <div className="relative">
+                          <img
+                            src={croppedImage}
+                            alt={`Detected person`}
+                            className="w-16 h-16 object-cover rounded-md border border-slate-200"
+                          />
+                          {/* Mood overlay */}
+                          {detection.mood && (
+                            <div 
+                              className="absolute -top-1 -right-1 w-6 h-6 rounded-full flex items-center justify-center text-sm border-2 border-white shadow-sm"
+                              style={{ backgroundColor: color }}
+                              title={`${mood} (${Math.round((detection.moodConfidence || 0) * 100)}%)`}
+                            >
+                              {emoji}
+                            </div>
+                          )}
+                        </div>
                       ) : (
                         <div className="w-16 h-16 bg-slate-100 rounded-md border border-slate-200 flex items-center justify-center">
                           <div className="w-2 h-2 bg-slate-400 rounded-full animate-pulse" />
@@ -171,18 +203,27 @@ export function DetectionSidebar({ detections, imageFile }: DetectionSidebarProp
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
-                          <div 
-                            className="w-3 h-3 rounded" 
-                            style={{ backgroundColor: color }}
-                          />
-                          <span className="text-sm font-medium text-slate-900 capitalize">
-                            {detection.class}
+                          <span className="text-sm font-medium text-slate-900">
+                            Person #{index + 1}
                           </span>
+                          {detection.mood && (
+                            <span className="text-xs px-2 py-1 rounded-full text-white font-medium" style={{ backgroundColor: color }}>
+                              {mood}
+                            </span>
+                          )}
                         </div>
                         <span className="text-xs text-slate-500 font-medium">
                           {Math.round(detection.confidence * 100)}%
                         </span>
                       </div>
+                      
+                      {/* Mood confidence */}
+                      {detection.mood && detection.moodConfidence && (
+                        <div className="text-xs text-slate-600 mt-1">
+                          Mood confidence: {Math.round(detection.moodConfidence * 100)}%
+                        </div>
+                      )}
+                      
                       <div className="text-xs text-slate-600 mt-1">
                         Size: {Math.round(detection.width)}×{Math.round(detection.height)}px
                       </div>
