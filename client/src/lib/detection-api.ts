@@ -17,13 +17,13 @@ export async function predictImage(imageFile: File): Promise<DetectionResponse> 
 }
 
 export function validateImageFile(file: File): { isValid: boolean; error?: string } {
-  const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
+  const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp'];
   const maxSize = 10 * 1024 * 1024; // 10MB
 
   if (!validTypes.includes(file.type)) {
     return {
       isValid: false,
-      error: 'Invalid file type. Please select a JPG, PNG, or GIF image.'
+      error: 'Invalid file type. Please select a JPG, PNG, GIF, or WebP image.'
     };
   }
 
